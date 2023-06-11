@@ -1,0 +1,39 @@
+.Intro {
+  padding: 8rem 0rem;
+  display: grid;
+  place-items: center;
+}
+.Name {
+  font-weight: 400;
+  font-size: 2.5em;
+}
+.Text {
+  font-size: 1.5em;
+}
+.Text2 {
+  font-size: 0.75em;
+}
+.MyImage {
+  position: relative;
+  height: 200px;
+  width: 200px;
+  border-radius: 50%;
+  overflow: hidden;
+  margin: 2em;
+}
+
+@media only screen and (max-width: 500px) {
+  .Name {
+    font-size: 1.25em;
+  }
+  .Text {
+    font-size: 0.75em;
+  }
+  .Text2 {
+    font-size: 0.5em;
+  }
+  .MyImage {
+    height: 150px;
+    width: 150px;
+  }
+}
