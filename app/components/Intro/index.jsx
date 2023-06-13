@@ -1,3 +1,5 @@
+"use client";
+
 import React from "react";
 import styles from "./Intro.module.css";
 import { MdWavingHand } from "react-icons/md";
@@ -6,6 +8,7 @@ import commonstyles from "../../common.module.css";
 import Image from "next/image";
 import myImage from "./sg.png";
 import classNames from "classnames";
+import Tippy from "@tippyjs/react";
 
 const Intro = () => {
   return (
@@ -16,7 +19,9 @@ const Intro = () => {
       <p className={styles.Text}>
         Hello,
         <br /> It&apos;s &nbsp;
-        <a href="#">@sghere</a>
+        <Tippy placement="right" content="Click to get contact info">
+          <a href="#GetInTouch">@sghere</a>
+        </Tippy>
         &nbsp;
         <MdWavingHand />
       </p>

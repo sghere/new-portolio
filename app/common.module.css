@@ -15,6 +15,14 @@
   padding-top: 3rem;
 }
 
+.show500 {
+  display: none;
+}
+
+.hide500 {
+  display: block;
+}
+
 @media (width <= 500px) {
   .pt2 {
     padding-top: 10rem;
@@ -22,5 +30,11 @@
   }
   .Heading {
     font-size: 1.3rem;
+  }
+  .show500 {
+    display: block;
+  }
+  .hide500 {
+    display: none;
   }
 }

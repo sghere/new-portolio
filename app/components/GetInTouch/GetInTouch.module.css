@@ -1,0 +1,24 @@
+.GetInTouch {
+  padding: 15rem 0rem;
+}
+
+.GetInTouch td {
+  text-align: left;
+}
+
+.Container {
+  display: flex;
+  flex-wrap: wrap;
+}
+.Values {
+  display: grid;
+}
+
+.Container {
+  align-items: center;
+  justify-content: center;
+}
+
+.Values p {
+  text-align: left;
+}
