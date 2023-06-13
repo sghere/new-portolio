@@ -8,7 +8,10 @@ const LandingPage = () => {
     <>
       <LinksFloater />
       <Intro />
+      <TechStack Type="intro" />
       <TechStack />
+      <TechStack Type="opensource / contributions" />
+      <TechStack Type="projects" />
     </>
   );
 };

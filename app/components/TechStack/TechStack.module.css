@@ -1,3 +1,24 @@
+.ProjectImage {
+  height: 250px;
+  width: 400px;
+  position: relative;
+}
+
+.Introduction {
+  text-align: initial;
+  font-size: 1rem;
+  opacity: 0.6;
+}
+
+.Projects ul {
+  display: grid !important;
+  font-size: 0.8rem;
+}
+
+.OpenSource {
+  font-size: 0.8rem;
+}
+
 .TechStack {
   max-width: 500px;
 }

@@ -1,9 +1,11 @@
 import React from "react";
 import styles from "./Intro.module.css";
-import { FaAngellist } from "react-icons/fa";
+import { MdWavingHand } from "react-icons/md";
+import { BsMouse } from "react-icons/bs";
 import commonstyles from "../../common.module.css";
 import Image from "next/image";
 import myImage from "./sg.png";
+import classNames from "classnames";
 
 const Intro = () => {
   return (
@@ -16,19 +18,16 @@ const Intro = () => {
         <br /> It&apos;s &nbsp;
         <a href="#">@sghere</a>
         &nbsp;
-        <FaAngellist />
+        <MdWavingHand />
       </p>
-      <div className={commonstyles.pt2}>
+      <div className={classNames(styles.bullet)}>
         <p>software engineer,</p>
         <p>tech enthusiast,</p>
         <p>MCA graduate from VJTI</p>
       </div>
-
-      {/* <h1 className={styles.Name}>Shubham Gaikwad</h1>
-      <p className={styles.Text}>Full Stack Developer</p>
-      <div className={styles.MyImage}>
-        <Image src={myimg} alt="myimg" fill={true} />
-      </div> */}
+      <a href="" className={commonstyles.pt1}>
+        <BsMouse size={30} />
+      </a>
     </div>
   );
 };

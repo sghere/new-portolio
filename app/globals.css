@@ -6,19 +6,27 @@
 * {
   margin: 0;
   padding: 0;
-  text-decoration: none;
-  list-style: none;
-  color: white;
   font-family: "Roboto Mono", monospace;
   user-select: none;
   /* font-family: "Lato", sans-serif; */
   /* font-family: "Playfair Display", serif; */
 }
 
+a,
+li {
+  text-decoration: none;
+  list-style: none;
+  color: white;
+}
+
 html,
 body {
   color: white;
-  background-color: #202023;
+  background-image: radial-gradient(
+    var(--primary-color) 0.65px,
+    #202023 0.65px
+  );
+  background-size: 11px 11px;
 }
 
 a {
