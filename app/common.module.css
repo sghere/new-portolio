@@ -1,0 +1,21 @@
+.Heading {
+  font-size: 1.5rem;
+  justify-self: left;
+  border: 2px solid white;
+  padding: 3px;
+  /* text-align: initial; */
+}
+.pt2 {
+  padding-top: 3rem;
+  font-size: 2rem;
+}
+
+@media (width <= 500px) {
+  .pt2 {
+    padding-top: 1.5rem;
+    font-size: 1.5rem;
+  }
+  .Heading {
+    font-size: 1.3rem;
+  }
+}

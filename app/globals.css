@@ -1,16 +1,37 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap");
+:root {
+  --primary-color: #e91e63;
+}
+
 * {
   margin: 0;
   padding: 0;
   text-decoration: none;
+  list-style: none;
   color: white;
+  font-family: "Roboto Mono", monospace;
+  user-select: none;
+  /* font-family: "Lato", sans-serif; */
+  /* font-family: "Playfair Display", serif; */
 }
 
 html,
 body {
   color: white;
-  background: repeating-linear-gradient(90deg, transparent, #6b6b6b);
-  background-size: 1em 1em;
-  background-color: #000000;
-  opacity: 1;
-  min-height: 100vh;
+  background-color: #202023;
+}
+
+a {
+  transition: color 0.2s;
+}
+a:hover {
+  color: var(--primary-color);
+}
+
+a svg:active {
+  transform: scale(0.9);
+}
+
+::-webkit-scrollbar {
+  display: none;
 }

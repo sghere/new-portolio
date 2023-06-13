@@ -1,0 +1,26 @@
+.TechStack {
+  max-width: 500px;
+}
+
+.TechStack ul {
+  display: flex;
+  padding: 2rem 1rem;
+  gap: 8px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.TechStack ul li svg {
+  height: 4rem;
+  width: 4rem;
+  transition: 0.2s;
+}
+
+.TechStack ul li svg:hover {
+  cursor: pointer;
+  fill: var(--primary-color);
+  stroke: var(--primary-color);
+}
+
+@media (width <= 500px) {
+}

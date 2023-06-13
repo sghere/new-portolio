@@ -1,12 +1,14 @@
 import React from "react";
 import Intro from "./Intro";
-import Footer from "./Footer";
+import LinksFloater from "./LinksFloater";
+import TechStack from "./TechStack";
 
 const LandingPage = () => {
   return (
     <>
+      <LinksFloater />
       <Intro />
-      <Footer />
+      <TechStack />
     </>
   );
 };

@@ -1,7 +1,8 @@
 .Intro {
-  padding: 8rem 0rem;
+  padding-top: 5rem;
   display: grid;
   place-items: center;
+  font-family: "Roboto Mono", monospace;
 }
 .Name {
   font-weight: 400;
@@ -9,6 +10,9 @@
 }
 .Text {
   font-size: 1.5em;
+  padding: 1rem;
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 5px;
 }
 .Text2 {
   font-size: 0.75em;
@@ -16,8 +20,8 @@
 .MyImage {
   position: relative;
   height: 200px;
-  width: 200px;
-  border-radius: 50%;
+  width: 160px;
+  /* border-radius: 50%; */
   overflow: hidden;
   margin: 2em;
 }
@@ -25,9 +29,6 @@
 @media only screen and (max-width: 500px) {
   .Name {
     font-size: 1.25em;
-  }
-  .Text {
-    font-size: 0.75em;
   }
   .Text2 {
     font-size: 0.5em;
