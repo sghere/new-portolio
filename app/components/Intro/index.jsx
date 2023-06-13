@@ -25,7 +25,7 @@ const Intro = () => {
         <p>tech enthusiast,</p>
         <p>MCA graduate from VJTI</p>
       </div>
-      <a href="" className={commonstyles.pt1}>
+      <a href="#intro" className={commonstyles.pt1}>
         <BsMouse size={30} />
       </a>
     </div>

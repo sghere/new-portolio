@@ -85,7 +85,7 @@ const projectsrenderer = projects.map((project) => {
 
 const TechStack = ({ Type = "techstack" }) => {
   return (
-    <div className={classNames(commonstyles.pt2, styles.TechStack)}>
+    <div id={Type} className={classNames(commonstyles.pt2, styles.TechStack)}>
       <p className={commonstyles.Heading}>{Type}</p>
       {
         {
@@ -149,7 +149,7 @@ const TechStack = ({ Type = "techstack" }) => {
               <ul>
                 <li>
                   <Tippy
-                    placement="left"
+                    placement="right"
                     arrow={false}
                     animation="scale"
                     content={

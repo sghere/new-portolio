@@ -27,6 +27,7 @@ body {
     #202023 0.65px
   );
   background-size: 11px 11px;
+  scroll-behavior: smooth;
 }
 
 a {
