@@ -6,17 +6,17 @@
 
 .Introduction {
   text-align: initial;
-  font-size: 1rem;
+  font-size: var(--font-size-md);
   opacity: 0.6;
 }
 
 .Projects ul {
   display: grid !important;
-  font-size: 0.8rem;
+  font-size: var(--font-size-base);
 }
 
 .OpenSource {
-  font-size: 0.8rem;
+  font-size: var(--font-size-base);
 }
 
 .TechStack {

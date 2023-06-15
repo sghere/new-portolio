@@ -8,7 +8,8 @@
 }
 .pt2 {
   padding-top: 15rem;
-  font-size: 2rem;
+  /* font-size: 2rem; */
+  font-size: var(--font-size-md);
 }
 
 .pt1 {
@@ -26,7 +27,7 @@
 @media (width <= 500px) {
   .pt2 {
     padding-top: 10rem;
-    font-size: 1.5rem;
+    /* font-size: 1.5rem; */
   }
   .Heading {
     font-size: 1.3rem;
